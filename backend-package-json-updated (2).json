@@ -1,0 +1,20 @@
+{
+  "name": "secure-tab-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Secure Tab Manager",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.js",
+    "build": "babel src -d dist",
+    "test": "jest",
+    "test:integration": "jest --config jest.integration.config.js"
+  },
+  "dependencies": {
+    // ... (keep existing dependencies)
+  },
+  "devDependencies": {
+    // ... (keep existing devDependencies)
+    "supertest": "^6.1.3"
+  }
+}

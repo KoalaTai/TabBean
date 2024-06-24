@@ -1,0 +1,30 @@
+# Backend Structure
+
+```
+backend/
+├── src/
+│   ├── controllers/
+│   │   ├── auditController.js
+│   │   ├── regulationController.js
+│   │   └── userController.js
+│   ├── models/
+│   │   ├── Audit.js
+│   │   ├── Regulation.js
+│   │   ├── Company.js
+│   │   └── User.js
+│   ├── routes/
+│   │   ├── auditRoutes.js
+│   │   ├── regulationRoutes.js
+│   │   └── userRoutes.js
+│   ├── services/
+│   │   ├── aiService.js
+│   │   └── pdfGenerationService.js
+│   ├── utils/
+│   │   ├── errorHandler.js
+│   │   └── validationUtils.js
+│   ├── config/
+│   │   └── database.js
+│   └── app.js
+├── tests/
+└── package.json
+```

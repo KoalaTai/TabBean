@@ -1,0 +1,25 @@
+{
+  "name": "secure-tab-manager",
+  "version": "1.0.0",
+  "description": "A secure web app for managing tabs, creating knowledge bases, and communicating between tabs",
+  "scripts": {
+    "install:all": "npm ci && cd extension && npm ci && cd ../backend && npm ci",
+    "build:extension": "cd extension && npm run build:prod",
+    "build:backend": "cd backend && npm run build",
+    "build": "npm run build:extension && npm run build:backend",
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "test:extension": "cd extension && npm test",
+    "test:backend": "cd backend && npm test",
+    "test": "npm run test:extension && npm run test:backend",
+    "test:integration": "cd backend && npm run test:integration && cd ../extension && npm run test:integration",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "author": "",
+  "license": "MIT"
+}

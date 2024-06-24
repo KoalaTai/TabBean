@@ -1,0 +1,36 @@
+# Frontend Structure
+
+```
+frontend/
+├── src/
+│   ├── components/
+│   │   ├── Dashboard/
+│   │   ├── AuditTools/
+│   │   ├── AIAssistant/
+│   │   ├── Integrations/
+│   │   └── DomainSpecific/
+│   │       ├── AuditCoach/
+│   │       ├── AuditPrep/
+│   │       ├── KidneyCare/
+│   │       └── ChatAI/
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Audit.js
+│   │   ├── Regulations.js
+│   │   ├── AIAssistant.js
+│   │   └── Settings.js
+│   ├── services/
+│   │   ├── api.js
+│   │   ├── aiService.js
+│   │   └── integrationService.js
+│   ├── utils/
+│   │   ├── domainManager.js
+│   │   └── themeManager.js
+│   ├── contexts/
+│   │   ├── AuthContext.js
+│   │   └── DomainContext.js
+│   └── App.js
+├── public/
+│   └── index.html
+└── package.json
+```

@@ -1,0 +1,150 @@
+# Secure Tab Manager API Documentation
+
+Base URL: `https://api.securetabmanager.com/v1`
+
+All endpoints require authentication unless otherwise specified.
+
+## Authentication
+
+Authentication is handled via JWT tokens.
+
+### Get Token
+
+```
+POST /auth/token
+```
+
+Request body:
+```json
+{
+  "code": "authorization_code_from_auth0"
+}
+```
+
+Response:
+```json
+{
+  "token": "your_jwt_token"
+}
+```
+
+Use this token in the Authorization header for all other requests:
+```
+Authorization: Bearer your_jwt_token
+```
+
+## Tabs
+
+### Get All Tabs
+
+```
+GET /tabs
+```
+
+Response:
+```json
+[
+  {
+    "id": "tab_id",
+    "url": "https://example.com",
+    "title": "Example Website",
+    "favicon": "https://example.com/favicon.ico"
+  },
+  ...
+]
+```
+
+### Create Tab
+
+```
+POST /tabs
+```
+
+Request body:
+```json
+{
+  "url": "https://example.com",
+  "title": "Example Website"
+}
+```
+
+### Update Tab
+
+```
+PUT /tabs/:id
+```
+
+Request body:
+```json
+{
+  "url": "https://updated-example.com",
+  "title": "Updated Example Website"
+}
+```
+
+### Delete Tab
+
+```
+DELETE /tabs/:id
+```
+
+## Knowledge Base
+
+### Search Knowledge Base
+
+```
+GET /knowledge-base/search?q=search_term
+```
+
+Response:
+```json
+[
+  {
+    "id": "entry_id",
+    "title": "Entry Title",
+    "summary": "Entry summary...",
+    "url": "https://source-url.com"
+  },
+  ...
+]
+```
+
+### Create Knowledge Base Entry
+
+```
+POST /knowledge-base
+```
+
+Request body:
+```json
+{
+  "title": "Entry Title",
+  "content": "Full content...",
+  "url": "https://source-url.com",
+  "tags": ["tag1", "tag2"]
+}
+```
+
+### Delete Knowledge Base Entry
+
+```
+DELETE /knowledge-base/:id
+```
+
+## Error Responses
+
+All endpoints may return the following error responses:
+
+- 400 Bad Request: Invalid input
+- 401 Unauthorized: Missing or invalid token
+- 403 Forbidden: Insufficient permissions
+- 404 Not Found: Resource not found
+- 500 Internal Server Error: Server error
+
+Error response body:
+```json
+{
+  "error": "Error message"
+}
+```
+

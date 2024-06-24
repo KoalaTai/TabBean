@@ -1,0 +1,72 @@
+# Roadmap Feedback Template
+
+## Reviewer Information
+- Name:
+- Role:
+- Date:
+
+## Overall Feedback
+- Does the roadmap align with our project goals?
+- Are there any major omissions or unnecessary inclusions?
+- General comments:
+
+## Short-term Improvements (1-3 months)
+
+### Performance Optimizations
+- Priority (High/Medium/Low):
+- Effort Estimation (Easy/Medium/Hard):
+- Comments:
+
+### User Experience Enhancements
+- Priority (High/Medium/Low):
+- Effort Estimation (Easy/Medium/Hard):
+- Comments:
+
+### Security Enhancements
+- Priority (High/Medium/Low):
+- Effort Estimation (Easy/Medium/Hard):
+- Comments:
+
+## Medium-term Features (3-6 months)
+
+### Advanced Tab Management
+- Priority (High/Medium/Low):
+- Effort Estimation (Easy/Medium/Hard):
+- Comments:
+
+### Knowledge Base Improvements
+- Priority (High/Medium/Low):
+- Effort Estimation (Easy/Medium/Hard):
+- Comments:
+
+### Collaboration Features
+- Priority (High/Medium/Low):
+- Effort Estimation (Easy/Medium/Hard):
+- Comments:
+
+## Long-term Vision (6+ months)
+
+### AI-powered Features
+- Priority (High/Medium/Low):
+- Effort Estimation (Easy/Medium/Hard):
+- Comments:
+
+### Cross-platform Support
+- Priority (High/Medium/Low):
+- Effort Estimation (Easy/Medium/Hard):
+- Comments:
+
+### Advanced Analytics
+- Priority (High/Medium/Low):
+- Effort Estimation (Easy/Medium/Hard):
+- Comments:
+
+### Integration and Extensibility
+- Priority (High/Medium/Low):
+- Effort Estimation (Easy/Medium/Hard):
+- Comments:
+
+## Additional Suggestions
+- Are there any features or improvements not mentioned that you think should be included?
+- Any other comments or suggestions for the roadmap?
+

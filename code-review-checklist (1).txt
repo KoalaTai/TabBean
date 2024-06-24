@@ -1,0 +1,52 @@
+# Code Review Checklist
+
+## General
+- [ ] Code follows the project's style guide
+- [ ] Functions and variables have clear, descriptive names
+- [ ] Comments are present where necessary and are helpful
+- [ ] No hardcoded sensitive information (e.g., API keys, passwords)
+- [ ] Error handling is implemented appropriately
+- [ ] Logging is used effectively
+
+## Security
+- [ ] Input validation is present and correct
+- [ ] SQL injection prevention is in place
+- [ ] XSS prevention is implemented
+- [ ] CSRF protection is in place
+- [ ] Sensitive data is encrypted where necessary
+
+## Performance
+- [ ] No unnecessary computations or database queries
+- [ ] Efficient algorithms and data structures are used
+- [ ] Asynchronous operations are used where appropriate
+
+## Testing
+- [ ] Unit tests cover critical functionality
+- [ ] Integration tests are present and comprehensive
+- [ ] Edge cases are considered in tests
+
+## Backend Specific
+- [ ] API endpoints follow RESTful conventions
+- [ ] Database queries are optimized
+- [ ] Proper HTTP status codes are used
+
+## Frontend Specific
+- [ ] React components are modular and reusable
+- [ ] State management is implemented efficiently
+- [ ] UI is responsive and accessible
+
+## Extension Specific
+- [ ] Manifest file is correctly configured
+- [ ] Content scripts are used appropriately
+- [ ] Extension permissions are minimal and necessary
+
+## Documentation
+- [ ] Code is self-documenting where possible
+- [ ] Complex logic is explained in comments
+- [ ] API endpoints are documented
+
+## Version Control
+- [ ] Commit messages are clear and descriptive
+- [ ] Feature branches are used for development
+- [ ] No large, unrelated changes in a single commit
+

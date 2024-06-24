@@ -1,0 +1,56 @@
+# Secure Tab Manager User Guide
+
+## Installation
+
+1. Visit the Chrome Web Store (link to be provided)
+2. Click "Add to Chrome"
+3. Follow the prompts to add the extension to your browser
+
+## Getting Started
+
+1. Click on the Secure Tab Manager icon in your browser toolbar
+2. If it's your first time, you'll be prompted to create an account or log in
+3. Once logged in, you'll see the main interface of the Secure Tab Manager
+
+## Features
+
+### Tab Management
+
+- View all open tabs across windows
+- Click on a tab in the list to switch to it
+- Close tabs directly from the extension popup
+
+### Knowledge Base
+
+- Save important information from your tabs to your knowledge base
+- Use the search function to quickly find saved information
+- Add tags to your saved items for easy categorization
+
+### Tab Communication
+
+- Send messages to specific tabs or groups of tabs
+- Receive notifications when tabs send you messages
+
+## Settings
+
+Access the settings page by clicking the gear icon in the extension popup.
+
+- **General**: Adjust general settings like auto-save frequency
+- **Privacy**: Control data collection and encryption settings
+- **Data Management**: Export or clear your data
+
+## Troubleshooting
+
+If you encounter any issues:
+
+1. Ensure you're using the latest version of the extension
+2. Try logging out and logging back in
+3. If problems persist, please contact our support team
+
+## Privacy and Security
+
+Your data is encrypted and stored securely. We never share your personal information. For more details, please refer to our Privacy Policy.
+
+## Feedback and Support
+
+We're always looking to improve! If you have any feedback or need support, please contact us at support@securetabmanager.com.

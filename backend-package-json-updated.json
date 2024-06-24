@@ -1,0 +1,26 @@
+{
+  "name": "secure-tab-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Secure Tab Manager",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.13.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.0",
+    "redis": "^3.1.2",
+    "sanitize-html": "^2.3.2",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.3"
+  }
+}

@@ -1,0 +1,26 @@
+# Feature Prioritization Matrix
+
+Use this matrix to help prioritize features if consensus cannot be reached. Score each feature on a scale of 1-5 for each criterion, then calculate the total score.
+
+| Feature | Business Value | User Value | Implementation Effort | Risk | Total Score |
+|---------|----------------|------------|------------------------|------|-------------|
+| [Feature 1] | | | | | |
+| [Feature 2] | | | | | |
+| [Feature 3] | | | | | |
+| ... | | | | | |
+
+Scoring Guide:
+- Business Value: 1 (Low) to 5 (High)
+- User Value: 1 (Low) to 5 (High)
+- Implementation Effort: 1 (High Effort) to 5 (Low Effort)
+- Risk: 1 (High Risk) to 5 (Low Risk)
+
+Total Score = Business Value + User Value + Implementation Effort + Risk
+
+Higher total scores indicate higher priority features.
+
+## Notes:
+- This matrix is a tool to aid decision-making, not a replacement for thoughtful discussion.
+- Consider weighting certain criteria more heavily if they align more closely with current project goals.
+- Use this in conjunction with qualitative discussions about each feature's strategic importance.
+

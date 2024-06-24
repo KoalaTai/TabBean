@@ -1,0 +1,20 @@
+{
+  "name": "secure-tab-manager-extension",
+  "version": "1.0.0",
+  "description": "Browser extension for Secure Tab Manager",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build:prod": "webpack --config webpack.config.js --mode production",
+    "watch": "webpack --config webpack.config.js --watch",
+    "test": "jest",
+    "test:integration": "jest --config jest.integration.config.js"
+  },
+  "dependencies": {
+    // ... (keep existing dependencies)
+  },
+  "devDependencies": {
+    // ... (keep existing devDependencies)
+    "webextension-polyfill-mock": "^0.7.0",
+    "jest-webextension-mock": "^3.7.19"
+  }
+}

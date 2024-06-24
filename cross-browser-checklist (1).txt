@@ -1,0 +1,20 @@
+# Cross-Browser Compatibility Checklist
+
+Test the following functionality in each supported browser:
+
+- [ ] Extension installation
+- [ ] User authentication
+- [ ] Tab management
+- [ ] Knowledge base operations
+- [ ] Tab communication
+- [ ] Settings modification
+- [ ] UI rendering and responsiveness
+
+Browsers to test:
+
+- [ ] Google Chrome (latest version)
+- [ ] Mozilla Firefox (if supported)
+- [ ] Microsoft Edge (if supported)
+- [ ] Opera (if supported)
+
+Note any discrepancies or issues specific to each browser.
