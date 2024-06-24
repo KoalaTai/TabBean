@@ -1,0 +1,38 @@
+secure-tab-manager/
+├── extension/
+│   ├── manifest.json
+│   ├── background.js
+│   ├── content.js
+│   ├── popup/
+│   │   ├── index.html
+│   │   ├── popup.js
+│   │   └── popup.css
+│   └── options/
+│       ├── index.html
+│       ├── options.js
+│       └── options.css
+├── backend/
+│   ├── server.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── tabs.js
+│   │   └── knowledgeBase.js
+│   ├── models/
+│   │   ├── user.js
+│   │   ├── tab.js
+│   │   └── knowledgeBase.js
+│   └── services/
+│       ├── categoryService.js
+│       ├── youtubeService.js
+│       └── nlpService.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── public/
+│   └── package.json
+└── package.json

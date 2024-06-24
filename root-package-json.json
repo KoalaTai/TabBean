@@ -1,0 +1,13 @@
+{
+  "name": "secure-tab-manager",
+  "version": "1.0.0",
+  "description": "A secure web app for managing tabs, creating knowledge bases, and communicating between tabs.",
+  "scripts": {
+    "install:all": "npm install && cd extension && npm install && cd ../backend && npm install",
+    "build": "cd extension && npm run build && cd ../backend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "test": "cd extension && npm test && cd ../backend && npm test"
+  },
+  "author": "",
+  "license": "MIT"
+}

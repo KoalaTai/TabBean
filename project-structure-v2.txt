@@ -1,0 +1,60 @@
+secure-tab-manager/
+├── extension/
+│   ├── src/
+│   │   ├── background/
+│   │   │   └── index.js
+│   │   ├── content/
+│   │   │   └── index.js
+│   │   ├── popup/
+│   │   │   ├── components/
+│   │   │   ├── pages/
+│   │   │   ├── App.js
+│   │   │   └── index.js
+│   │   ├── options/
+│   │   │   ├── components/
+│   │   │   ├── pages/
+│   │   │   ├── App.js
+│   │   │   └── index.js
+│   │   ├── services/
+│   │   │   ├── tabManager.js
+│   │   │   ├── contentExtractor.js
+│   │   │   ├── communicationModule.js
+│   │   │   ├── knowledgeBaseGenerator.js
+│   │   │   └── authService.js
+│   │   └── utils/
+│   ├── public/
+│   │   ├── manifest.json
+│   │   └── icons/
+│   ├── webpack.config.js
+│   └── package.json
+├── backend/
+│   ├── src/
+│   │   ├── routes/
+│   │   │   ├── auth.js
+│   │   │   ├── tabs.js
+│   │   │   └── knowledgeBase.js
+│   │   ├── models/
+│   │   │   ├── user.js
+│   │   │   ├── tab.js
+│   │   │   └── knowledgeBase.js
+│   │   ├── services/
+│   │   │   ├── categoryService.js
+│   │   │   ├── youtubeService.js
+│   │   │   └── nlpService.js
+│   │   ├── middleware/
+│   │   │   ├── auth.js
+│   │   │   └── errorHandler.js
+│   │   ├── config/
+│   │   │   └── index.js
+│   │   └── app.js
+│   ├── tests/
+│   └── package.json
+├── docs/
+│   ├── API.md
+│   └── ARCHITECTURE.md
+├── scripts/
+│   ├── build.sh
+│   └── deploy.sh
+├── .gitignore
+├── README.md
+└── package.json
