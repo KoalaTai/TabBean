@@ -4,51 +4,67 @@ body {
     margin: 0;
     padding: 0;
 }
+#app {
+    padding: 10px;
+    width: 300px;
+}
+#app.small {
+    font-size: 12px;
+}
+#app.medium {
+    font-size: 16px;
+}
+#app.large {
+    font-size: 20px;
+}
 
-* App Container *#
-pap{
+# app {
     padding: 10px;
     width: 300px;
 }
 
-/* Header */
+# app.small {
+    font-size: 12px;
+}
+	#app.medium {
+    font-size: 16px;
+}
+
+#app.large {
+    font-size: 20px;
+}
+
+ /* Header */
 header {
-    background-color: #4CAF50;
+    background-color: #4CFC50;
     color: white;
     text-align: center;
     padding: 10px 0;
 }
-
-* Main Content */
-main {
+header select {
     margin-top: 10px;
 }
 
 # tab-list H2 {
     margin: 0 0 10px 0;
 }
-
 #tabs {
     list-style: none;
     padding: 0;
 }
-	
 tabs li {
     background: #f4f4f4;
     margin-bottom: 5px;
     padding: 5px;
     border-radius: 3px;
 }
-
-/* Actions Section */
-#actions {
+	#actions {
     margin-top: 10px;
     text-align: center;
 }
-
-#refresh {     
+	#refresh {    
     padding: 5px 10px;
-    background-color: #4CAF50;
+    background-color: #4CFC50;
     color: white;
     border: none;
     border-radius: 3px;
